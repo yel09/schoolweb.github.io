@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="Greenfield Institute School.css">
+   <link rel="stylesheet" href="../all.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="author" content="Trishia San Diego">
+   <title>Greenfield Institute School - Home</title>
+</head>
+<body>
+   <nav class="navlist">
+      <ul>
+         <li><h4> <img src = "logo.png"  class = "logo"> </h4></li>
+         <li><a href="HOMEPAGE.html">HOME</a></li>
+         <li><a href="ABOUT.html">ABOUT</a></li>
+         <li><a href="STRAND.html">STRAND</a></li>
+     
+         
+         <a href="about.html"></a>
+      </ul>
+   </nav>
+   <div class="main-box">
+      <h1>GREENFIELD INSTITUTE SCHOOL</h1>
+      <p>Free shuttle service from the Philippines to the moon with a 60% chance of survival. Enroll now!</p>
+      <button>ENROLL NOW</button>
+   </div>
+   <div class="container">
+      <h2>FACILITIES</h2>
+   
+      <div class="row">
+         <div class="column">
+         <a href="ABOUT.html"><img src="building.jpg"></a>
+         <a href="ABOUT.html">CAMPUS</a>
+         </div>
+         <div class="column">
+            <a href="ABOUT.html"><img src="classroom.jpg"></a>
+            <a href="ABOUT.html">CLASSROOM</a>
+         </div>
+         <div class="column">
+            <a href="ABOUT.html"><img src="library1.jpg"></a>
+            <a href="ABOUT.html">LIBRARY</a>
+         </div>
+      </div>
+   </div>
+   <div class="container">
+    <h2>PROGRAMS</h2>
+   <div class="row">
+      <div class="column">
+      <a href="ABOUT.html"><img src="piano.jpg"></a>
+      <a href="ABOUT.html">PIANO</a>
+      </div>
+      <div class="column">
+         <a href="ABOUT.html"><img src="drum.jpg" alt=""></a>
+         <a href="ABOUT.html">DRUMS</a>
+      </div>
+      <div class="column">
+         <a href="ABOUT.html"><img src="guitar.jpg"></a>
+         <a href="ABOUT.html">GUITAR</a>
+      </div>
+   </div> 
+</div>
+<div class="container">
+    <h2>SPORTS</h2>
+   <div class="row">
+      <div class="column">
+      <a href="ABOUT.html"><img src="basketball.jpg"></a>
+      <a href="ABOUT.html">BASKETBALL</a>
+      </div>
+      <div class="column">
+         <a href="ABOUT.html"><img src="volleyball.jpg" alt=""></a>
+         <a href="ABOUT.html">VOLLEYBALL</a>
+      </div>
+      <div class="column">
+         <a href="ABOUT.html"><img src="athletics.jpg"></a>
+         <a href="ABOUT.html">ATHLETICS</a>
+      </div>
+   </div>      
+   </div> 
+
+    <div class="container">
+   <div class="row"> 
+   <div class="column">
+         <a href="ABOUT.html"><img src="baseball.jpg"></a>
+         <a href="ABOUT.html">BASEBALL</a>
+      </div>
+      <div class="column">
+         <a href="ABOUT.html"><img src="football.jpg"></a>
+         <a href="ABOUT.html">FOOTBALL</a>
+      </div>
+      <div class="column">
+         <a href="ABOUT.html"><img src="taekwondo.jpg"></a>
+         <a href="ABOUT.html">TAEKWONDO</a>
+      </div>
+      </div>
+      </div>
+
+
+
+</div>
+</body>
+</html>
+
+<style>
+
+.logo{
+border-radius: 50%;
+width: 120px;
+height: 120px;
+margin-right:auto;
+margin-left:-15%;
+}
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   transition: 0.5s;
+   font-family: "Century Gothic", sans-serif;
+}
+
+.navlist{
+   width: 100%;
+   position: fixed;
+   padding: 10px 10%;
+   background-color: #110e2bbb;
+}
+.navlist ul{
+   display: flex;
+   list-style: none;
+}
+.navlist ul li:first-child{
+   flex: 1;
+   color: #ffffff;
+}
+.navlist ul li h4{
+   font-family: serif;
+}
+.navlist ul a{
+   display: block;
+   margin-left: 20px;
+   font-family: "Century Gothic", sans-serif;
+   font-size: 1rem;
+   color: white;
+   text-decoration: none;
+}
+.navlist ul a:hover{
+   color: #ff8800;
+}
+
+
+
+.main-box{
+   width: 100%;
+   height: 80vh;
+ 
+   background-image: url("ground.jpg");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   color: white;
+   text-align: center;
+   padding-top: 30vh;
+}
+
+.main-box h1{
+   word-spacing: 8px;
+   margin-bottom: 15px;
+   font-family: serif;
+}
+.main-box p{
+   font-family: "Century Gothic", sans-serif;
+   font-size: 14px;
+   letter-spacing: 1.4px;
+   margin-bottom: 40px;
+}
+.main-box button{
+   padding: 10px;
+   border: none;
+   outline: none;
+   background: none;
+   border: 1px solid #ff8800;
+   color: #ffffff;
+   font-weight: bold;
+}
+.main-box button:hover{
+   background: #ff8800;
+}
+
+
+.container{
+   width: 80%;
+   margin: auto;
+   margin-bottom: 30px;
+}
+.container h2{
+   color: #ff8800;
+   text-align:center;
+   margin: 30px;
+   font-family: 'Arial Narrow Bold', sans-serif;
+   letter-spacing: 5px;
+}
+.container h2::before, .container h2::after{
+   content: "-----";
+   letter-spacing: -5px;
+   font-weight: lighter;
+   margin: 0 20px 0 10px;
+}
+.container .row{
+   display:flex;
+   justify-content:space-between;
+}
+.container .column{
+   width: 32%;
+   height: auto;
+   position: relative;
+   overflow:hidden;
+}
+.container .column img{
+   width: 100%;
+   height: 100%;
+}
+.container .column a:last-child{
+   position: absolute;
+   display:block;
+   width: 100%;
+   height: 0;
+   top: 99%;
+   bottom: 0;
+   left: 0;
+   bottom: 0;
+   background-color: #ff8800c0;
+   text-align: center;
+   padding-top: 14vw;
+   font-size: 3vw;
+   color: #ffffff;
+   text-decoration: none;
+}
+.container .column:hover a:last-child{
+   height: 100%;
+   top: 0;
+}
+
+@media (max-width= 200px){
+   .container .row{
+      flex-direction: column;
+   }
+   .container .column{
+      width: 10%;
+   }
+   .container .column a:last-child{
+      line-height: 6000vw;     
+      font-size: 6vw;
+}
+}
+
+
+</style>
